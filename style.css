@@ -1,0 +1,59 @@
+*{
+    font-family: poppins, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #9eeb19;
+}
+
+.registerFor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(241, 30, 30, 0.3);
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3ee23e;
+    color: #fff;
+    border:none;
+    border-radius: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
