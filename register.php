@@ -7,7 +7,7 @@ $password=$_POST['password'];
 $confirmPassword=$_POST['confirmPassword'];
 $email=$_POST['email'];
 
-$conn=new mysqli('localhost','root','','register');
+$conn=new mysqli('localhost','root','','registration');
 if($conn->connect_error){
     die('connection failed:'.$conn->connect_error);
 }
